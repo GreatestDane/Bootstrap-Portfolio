@@ -3,12 +3,14 @@
 
 <head>
     <title>Dane Goodman's Portfolio</title>
+    <!-- link CSS to your page -->
+    <link rel="stylesheet" href="./style.css">
     <!-- Link bootstrap to your page -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
         crossorigin="anonymous">
 </head>
 
-<body>
+<body style="background-color: grey">
 
     <div class="container-fluid">
 
@@ -41,8 +43,35 @@
                 </nav>
             </div>
         </div>
-        <!-- Now create a new row for content -->
-        <P>This is the contact page</P>
+        <!-- Now create a contact form -->
+        <div class="container-fluid" id="contact-container">
+                <h2 style="color: white">Contact</h2>
+                <hr>
+            <div class="container" id="contact">
+                <form action="action_page.php">
+              
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" placeholder="Your name..">
+              
+                  <label for="E-mail">E-mail</label>
+                  <input type="text" id="E-mail" name="E-mail" placeholder="Your E-mail..">
+              
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              
+                  <input class="bg-dark" type="submit" value="Submit">
+              
+                </form>
+            </div>
+        </div>
+        <!-- Create a footer for the webpage -->
+        <div class="container-fluid">
+                <div class="row">
+                    <div class="footer navbar-dark bg-dark">
+                        <h4>&copy Dane Michael Goodman</h4>
+                    </div>
+                </div>
+            </div>
 
     </div>
 
