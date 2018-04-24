@@ -10,6 +10,10 @@
     text-align: center;
 }
 
+#portfolio-container {
+    height: 900px;
+}
+
 /* contact form styling */
 #contact-container {
     height: 700px;
