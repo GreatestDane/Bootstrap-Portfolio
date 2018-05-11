@@ -11,8 +11,17 @@
 }
 
 #portfolio-container {
-    height: 900px;
+    height: 1150px;
 }
+
+/* #sizes {
+    height: 180px;
+    
+}
+#position {
+    position: relative;
+    bottom: 600px;
+} */
 
 /* contact form styling */
 #contact-container {
